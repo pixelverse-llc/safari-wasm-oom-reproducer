@@ -11,7 +11,7 @@ The bug can be triggered by repeatedly reloading the page. Once the bug appears,
 
 ![Out of Memory error Safari console screenshot](screenshot.png)
 
-Crucially, the out of memory situation persist across reloads, necessitating a browser restart.
+Crucially, the out of memory situation persist across reloads, necessitating a closing/reopening of the tab or a browser restart.
 
 This repo contains a file `index.c` which can be compiled to a `index.html/.js/.wasm` output by using the Emscripten toolchain. The Emscripten build invocation is encapsulated in the shell script `build.sh`.
 
